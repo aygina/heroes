@@ -12,18 +12,29 @@ document.addEventListener("DOMContentLoaded", function (event) {
         <div>Суперсилы: ${hero.powers}</div><br>
         <div>Подробнее: ${hero.addInfo}</div><br>
         <div>Ваша оценка:
-        <input type="radio" name="rate" id="1" value="1">1
-        <input type="radio" name="rate" id="2" value="2">2
-        <input type="radio" name="rate" id="3" value="3">3
-        <input type="radio" name="rate" id="4" value="4">4
-        <input type="radio" name="rate" id="5" value="5">5
-        <input type="radio" name="rate" id="6" value="6">6
-        <input type="radio" name="rate" id="7" value="7">7
-        <input type="radio" name="rate" id="8" value="8">8
-        <input type="radio" name="rate" id="9" value="9">9
-        <input type="radio" name="rate" id="10" value="10">10
+        <input type="radio" name="rate" id="rate" value="1">
+        <input type="radio" name="rate" id="rate" value="2">2
+        <input type="radio" name="rate" id="rate" value="3">3
+        <input type="radio" name="rate" id="rate" value="4">4
+        <input type="radio" name="rate" id="rate" value="5">5
+        <input type="radio" name="rate" id="rate" value="6">6
+        <input type="radio" name="rate" id="rate" value="7">7
+        <input type="radio" name="rate" id="rate" value="8">8
+        <input type="radio" name="rate" id="rate" value="9">9
+        <input type="radio" name="rate" id="rate" value="10">10
 </div>`;
     }
 
     document.getElementById('heroContainer').innerHTML = heroContent;
 });
+
+
+function saveRank() {
+    let rate = document.querySelector('.rate:checked');
+    console.log(rate);
+    rate = rate == null ? '1' : rate.value;
+
+    if (rate == i)
+    return 
+    
+}
