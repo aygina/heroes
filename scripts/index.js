@@ -39,7 +39,8 @@ function saveRank() {
     rankInfo = hero.name + ": " + rank;
     ranks.push(rankInfo);
 
-    console.log(ranks);
     localStorage.setItem('ranks', JSON.stringify(ranks));
     saved.innerHTML = 'Сохранено!';
     }}
+
+    
