@@ -1,10 +1,12 @@
 body {
     background-color: rgb(11, 52, 109);
 }
+
 h1 {
-    color:rgb(11, 52, 109);
+    color: rgb(11, 52, 109);
 
 }
+
 .wrapper {
     max-width: 1160px;
     height: 100%;
@@ -18,14 +20,17 @@ h1 {
 }
 
 .form {
-    padding-left: 50px;
-    padding-right: 50px;
     text-align: center;
     font-family: 'Comfortaa', sans-serif;
     font-size: 0.7em;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #heroContainer {
@@ -36,9 +41,29 @@ h1 {
 }
 
 .hero {
-    background-color: beige;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color:rgb(11, 52, 109);
+    color: rgb(11, 52, 109);
+}
+
+button {
+    background: rgb(11, 52, 109);
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    width: 190px;
+    height: 34px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    opacity: 80%;
+}
+
+.saved {
+    color: green;
+
 }
