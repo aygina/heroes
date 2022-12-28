@@ -42,5 +42,3 @@ function saveRank() {
     localStorage.setItem('ranks', JSON.stringify(ranks));
     saved.innerHTML = 'Сохранено!';
     }}
-
-    
