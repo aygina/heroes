@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
 function saveRank() {
-
     ranks = [];
     let saved = document.getElementById('saved');
     let heroes = JSON.parse(json);
